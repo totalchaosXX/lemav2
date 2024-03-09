@@ -42,8 +42,8 @@ import {
             if (user) {
                 // Redirecciona a otro componente (por ejemplo, 'Dashboard')
                
-
-               navigate("/home");
+              //window.location.href = '/dashboard/home';
+               navigate("/dashboard/home");
                
                
             } else {
